@@ -43,5 +43,5 @@ jobs:
         with:
           context: .
           push: true
-          echo "Tags: ${{ steps.meta.outputs.tags }}"
-          echo "Labels: ${{ steps.meta.outputs.labels }}"
+          echo tags: ${{ steps.meta.outputs.tags }}"
+          echo labels: ${{ steps.meta.outputs.labels }}"
